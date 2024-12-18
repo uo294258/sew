@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="es"><head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <title>F1 Desktop-Uso de APIS</title>
+    <meta name="author" content="Zinedine Alvarez">
+    <meta name="description" content="Proyecto F1 uso de apis de forma libre">
+    <meta name="keywords" content="api, canvas, auido, geolocation">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+    <link rel="icon" href="multimedia/imagenes/favicon.ico">
+    <script src="js/api.js"></script>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1><a href="index.html">F1 Desktop </a></h1>
+        <nav>
+            <a href="index.html" title="index">Inicio</a>
+            <a href="piloto.html" title="piloto">Piloto</a>
+            <a href="noticias.html" title="noticias">Noticias</a>
+            <a href="calendario.html" title="calendario">Calendario</a>
+            <a href="meteorologia.html" title="meteorología">Meteorología</a>
+            <a href="circuito.html" title="circuito">Circuito</a>
+            <a href="php/viajes.php" title="viajes">Viajes</a>
+            <a href="juegos.html" title="juegos" class="active">Juegos</a>
+        </nav>
+    </header>
+    <p>
+        Estás en: <a href="index.html">Inicio</a> &gt;&gt; <a href="juegos.html">Juegos</a> &gt;&gt; Api
+    </p>
+    <main>
+        <section>
+            <h2>Menú de Juegos</h2>
+            <ul>
+                <li><a href="memoria.html">Juego De Memoria</a></li>
+                <li><a href="php/semaforo.php">Juego De Reacción</a></li>
+                <li><a href="api.html">Api</a></li>
+                <li><a href="php/libre.php">Ejercicio Libre PHP</a></li>
+
+            </ul>
+        </section>
+        <section>
+            <h3>Bandera de la Meta con Canvas</h3>
+            <canvas></canvas>
+        </section>
+        <section>
+            <h3>Circuito Más Cercano</h3>
+            
+        <p>Tu ubicación es: Latitud: 43.3680851, Longitud: -5.8675408. El circuito más cercano es Circuito de Jarama, a 381.27 km.</p></section>
+
+        <section>
+            <h3>Circuitos Y Distancias</h3>
+            <p>Pulse sobre las imagenes para escuchar el rugir de los coches</p>
+        <table><caption>Distancias y Fotos de los Circuitos</caption><tr><th>Nombre del Circuito</th><th>Coordenadas</th><th>Distancia</th><th>Foto</th></tr><tbody><tr><td>Circuito Internacional de Baréin</td><td>Lat: 25.958, Lng: 50.51</td><td>5394.06 km</td><td><img src="multimedia/imagenes/barein.png" alt="Foto del Circuito Circuito Internacional de Baréin" title="Foto del Circuito Circuito Internacional de Baréin"></td></tr><tr><td>Circuito Yas Marina</td><td>Lat: 24.467, Lng: 54.603</td><td>5823.57 km</td><td><img src="multimedia/imagenes/yasmarina.png" alt="Foto del Circuito Circuito Yas Marina" title="Foto del Circuito Circuito Yas Marina"></td></tr><tr><td>Circuito de Albert Park</td><td>Lat: -37.849, Lng: 144.968</td><td>17491.85 km</td><td><img src="multimedia/imagenes/albertpark.jpg" alt="Foto del Circuito Circuito de Albert Park" title="Foto del Circuito Circuito de Albert Park"></td></tr><tr><td>Circuito de Mónaco</td><td>Lat: 43.734, Lng: 7.42</td><td>1070.46 km</td><td><img src="multimedia/imagenes/albertpark.jpg" alt="Foto del Circuito Circuito de Mónaco" title="Foto del Circuito Circuito de Mónaco"></td></tr><tr><td>Circuito de Spa-Francorchamps</td><td>Lat: 50.437, Lng: 5.971</td><td>1191.93 km</td><td><img src="multimedia/imagenes/francorchamps.png" alt="Foto del Circuito Circuito de Spa-Francorchamps" title="Foto del Circuito Circuito de Spa-Francorchamps"></td></tr><tr><td>Autodromo Nazionale Monza</td><td>Lat: 45.62, Lng: 9.281</td><td>1225.38 km</td><td><img src="multimedia/imagenes/monza.png" alt="Foto del Circuito Autodromo Nazionale Monza" title="Foto del Circuito Autodromo Nazionale Monza"></td></tr><tr><td>Circuito de Silverstone</td><td>Lat: 52.073, Lng: 1.014</td><td>1095.16 km</td><td><img src="multimedia/imagenes/silverstone.png" alt="Foto del Circuito Circuito de Silverstone" title="Foto del Circuito Circuito de Silverstone"></td></tr><tr><td>Circuito de Hockenheimring</td><td>Lat: 48.563, Lng: 7.642</td><td>1190.88 km</td><td><img src="multimedia/imagenes/hockenheimring.png" alt="Foto del Circuito Circuito de Hockenheimring" title="Foto del Circuito Circuito de Hockenheimring"></td></tr><tr><td>Circuito de Suzuka</td><td>Lat: 35.511, Lng: 139.618</td><td>10573.54 km</td><td><img src="multimedia/imagenes/suzuka.png" alt="Foto del Circuito Circuito de Suzuka" title="Foto del Circuito Circuito de Suzuka"></td></tr><tr><td>Circuito de Jarama</td><td>Lat: 40.569, Lng: -3.203</td><td>381.27 km</td><td><img src="multimedia/imagenes/jarama.png" alt="Foto del Circuito Circuito de Jarama" title="Foto del Circuito Circuito de Jarama"></td></tr></tbody></table></section>
+
+    </main>
+    <script>
+        var api = new Api();
+    </script>
+
+
+</body></html>

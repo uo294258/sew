@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito>
+        <nombre>Circuit Of The Americas</nombre>
+        <longitudCircuito medida="km">5.513</longitudCircuito>
+        <anchura medida="m">14</anchura>
+        <fecha>2024-04-14</fecha>
+        <horainicio>21:00:00</horainicio>
+        <numvueltas>56</numvueltas>
+        <localidad>Austin</localidad>
+        <pais>Estados Unidos</pais>
+        <referencias> 
+            <referencia enlace="https://circuitoftheamericas.com/">Pagina Oficial</referencia>
+            <referencia enlace="https://es.wikipedia.org/wiki/Circuito_de_las_Am%C3%A9ricas"> Wikipedia </referencia>
+            <referencia enlace="https://www.formula1.com/en/racing/2024/united-states/circuit">Pagina Formula 1 </referencia>
+        </referencias>
+        <galeria> 
+            <imagen archivo="panorama.jpg">Panorama</imagen>
+            <imagen archivo="circuito.png">Circuito</imagen>
+        </galeria>
+        <galeriavideos> 
+            <video archivo="videoCircuito.mp4">Video Circuito</video>  
+        </galeriavideos>
+        <coordenadas>
+            <longitud> -97.6422641 </longitud>
+            <latitud>  30.1335256</latitud>
+            <altitud medida="m"> 157.5727233   </altitud>
+        </coordenadas>
+        <tramos>
+            <tramo>
+                <distancia medida="m"> 627.56</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6371269 </longitud>
+                    <latitud> 30.1300454 </latitud>
+                    <altitud medida="m"> 184   </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 35.24</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6367843 </longitud>
+                    <latitud> 30.1301578 </latitud>
+                    <altitud medida="m"> 185   </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 190.10</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6373575 </longitud>
+                    <latitud> 30.1317940 </latitud>
+                    <altitud medida="m"> 169  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 67.48</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6372017 </longitud>
+                    <latitud> 30.1323857 </latitud>
+                    <altitud medida="m"> 166  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 40.51</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6369234 </longitud>
+                    <latitud> 30.1326592 </latitud>
+                    <altitud medida="m"> 165  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 191.81</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6352336 </longitud>
+                    <latitud> 30.1335756 </latitud>
+                    <altitud medida="m"> 168  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 84.57</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6348316 </longitud>
+                    <latitud> 30.1342520 </latitud>
+                    <altitud medida="m"> 166  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m">33.76</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6345685   </longitud>
+                    <latitud> 30.1344530 </latitud>
+                    <altitud medida="m"> 166  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 54.35</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6340516 </longitud>
+                    <latitud> 30.1346506 </latitud>
+                    <altitud medida="m"> 166  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m">37.91</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6337930 </longitud>
+                    <latitud> 30.1349079 </latitud>
+                    <altitud medida="m"> 166  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 65.05</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6336688 </longitud>
+                    <latitud> 30.1354830 </latitud>
+                    <altitud medida="m"> 165  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 48.39</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6334156 </longitud>
+                    <latitud> 30.1358591 </latitud>
+                    <altitud medida="m"> 165  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 59.99</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6329027 </longitud>
+                    <latitud> 30.1361598 </latitud>
+                    <altitud medida="m"> 166  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 49.52</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6323895 </longitud>
+                    <latitud> 30.1361966 </latitud>
+                    <altitud medida="m"> 167  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 64.29</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6317864 </longitud>
+                    <latitud> 30.1359471 </latitud>
+                    <altitud medida="m"> 168  </altitud>
+                </coordenadasfinales>
+                <numerosector> 1 </numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 61.65</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6311905 </longitud>
+                    <latitud> 30.1357426 </latitud>
+                    <altitud medida="m"> 168  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 44.79</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6307746 </longitud>
+                    <latitud> 30.1359240 </latitud>
+                    <altitud medida="m"> 167  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 91.37</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6301394 </longitud>
+                    <latitud> 30.1365351 </latitud>
+                    <altitud medida="m"> 170  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 32.11</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6298251 </longitud>
+                    <latitud> 30.1366326 </latitud>
+                    <altitud medida="m"> 172  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 32.88</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6294881 </longitud>
+                    <latitud> 30.1365826 </latitud>
+                    <altitud medida="m"> 174  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 55.32</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6291208 </longitud>
+                    <latitud> 30.1361997 </latitud>
+                    <altitud medida="m"> 177  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 33.23</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6287753 </longitud>
+                    <latitud> 30.1361948 </latitud>
+                    <altitud medida="m"> 178  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 170.87</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6270497 </longitud>
+                    <latitud> 30.1365613 </latitud>
+                    <altitud medida="m"> 175  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m">387.84</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6244978 </longitud>
+                    <latitud> 30.1392623 </latitud>
+                    <altitud medida="m"> 170 </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 28.10</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6246302 </longitud>
+                    <latitud> 30.1394876 </latitud>
+                    <altitud medida="m"> 170  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 274.20</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6273609 </longitud>
+                    <latitud> 30.1387776 </latitud>
+                    <altitud medida="m"> 162.1978431  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 166.89</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6290371 </longitud>
+                    <latitud> 30.1383887 </latitud>
+                    <altitud medida="m"> 165.7400601  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 148.17</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6305424 </longitud>
+                    <latitud> 30.1381043 </latitud>
+                    <altitud medida="m"> 164.1006961  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 152.40</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6320999 </longitud>
+                    <latitud> 30.1378511 </latitud>
+                    <altitud medida="m"> 162.6896021 </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 220.89</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6343790 </longitud>
+                    <latitud> 30.1376034 </latitud>
+                    <altitud medida="m"> 163.2835606  </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 216.54</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6366161 </longitud>
+                    <latitud> 30.1373817 </latitud>
+                    <altitud medida="m"> 160.9266821 </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+             <tramo>
+                <distancia medida="m"> 19.37</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6365918 </longitud>
+                    <latitud> 30.1372088 </latitud>
+                    <altitud medida="m"> 160.5915564 </altitud>
+                </coordenadasfinales>
+                <numerosector> 2</numerosector>
+            </tramo>
+             <tramo>
+                <distancia medida="m"> 85.04</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6360654 </longitud>
+                    <latitud> 30.1365943 </latitud>
+                    <altitud medida="m"> 160.4733937 </altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 116.31</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6354144 </longitud>
+                    <latitud> 30.1357127 </latitud>
+                    <altitud medida="m"> 163.3026181</altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 30.44</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6355942 </longitud>
+                    <latitud> 30.1354874 </latitud>
+                    <altitud medida="m"> 163.7334377 </altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+             <tramo>
+                <distancia medida="m"> 65.45</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6362728 </longitud>
+                    <latitud> 30.1355329 </latitud>
+                    <altitud medida="m"> 162.9977119</altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+             <tramo>
+                <distancia medida="m"> 38.38</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6366233 </longitud>
+                    <latitud> 30.1356980 </latitud>
+                    <altitud medida="m"> 162.6684349 </altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 57.64</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6367528 </longitud>
+                    <latitud> 30.1362041 </latitud>
+                    <altitud medida="m"> 161.5070550 </altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 54.03</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6371369 </longitud>
+                    <latitud> 30.1365587 </latitud>
+                    <altitud medida="m"> 161.2163701 </altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 56.82</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6377262 </longitud>
+                    <latitud> 30.1365957 </latitud>
+                    <altitud medida="m"> 161.5187400 </altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 28.17</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6377771 </longitud>
+                    <latitud> 30.1363462 </latitud>
+                    <altitud medida="m"> 161.6313852</altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 195.18</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6368114 </longitud>
+                    <latitud> 30.1348023 </latitud>
+                    <altitud medida="m"> 163.3974630161 </altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 89.55</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6370827 </longitud>
+                    <latitud> 30.1340319 </latitud>
+                    <altitud medida="m"> 164.9087901 </altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 95.03</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6379745 </longitud>
+                    <latitud> 30.1336637 </latitud>
+                    <altitud medida="m"> 165.2532072 </altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 79.32</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6387940 </longitud>
+                    <latitud> 30.1337448 </latitud>
+                    <altitud medida="m"> 163.5173659</altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 55.43</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6392810 </longitud>
+                    <latitud> 30.1340115 </latitud>
+                    <altitud medida="m"> 161.2189690</altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 202.38</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6405308 </longitud>
+                    <latitud> 30.1354758 </latitud>
+                    <altitud medida="m"> 158.6866669</altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 37.26</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6409176 </longitud>
+                    <latitud> 30.1354948 </latitud>
+                    <altitud medida="m"> 157.6383085</altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 260.41</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6433931 </longitud>
+                    <latitud> 30.1345455 </latitud>
+                    <altitud medida="m"> 156.3599158</altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 25.47</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6435128 </longitud>
+                    <latitud>30.1343412 </latitud>
+                    <altitud medida="m"> 157.1331860</altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+            <tramo>
+                <distancia medida="m"> 150.48</distancia>
+                <coordenadasfinales>   
+                    <longitud> -97.6422641 </longitud>
+                    <latitud>  30.1335256</latitud>
+                    <altitud medida="m"> 157.5727233   </altitud>
+                </coordenadasfinales>
+                <numerosector> 3</numerosector>
+            </tramo>
+        </tramos>
+</circuito>

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="es"><head>
+	<!-- Datos que describen el documento -->
+	<meta charset="UTF-8">
+	<title>F1 Desktop-Noticias</title>
+	<meta name="author" content="Zinedine Alvarez">
+	<meta name="description" content="Noticias del proyecto F1">
+	<meta name="keywords" content="f1,Bottas,noticias">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+	<link rel="stylesheet" type="text/css" href="estilo/layout.css">
+	<link rel="stylesheet" type="text/css" href="estilo/article_elements.css">
+	<link rel="icon" href="multimedia/imagenes/favicon.ico">
+	<script src="js/noticias.js"></script>
+
+
+
+</head>
+
+<body>
+	<!-- Datos con el contenidos que aparece en el navegador -->
+	<header>
+		<h1><a href="index.html">F1 Desktop </a></h1>
+
+		<nav>
+			<a href="index.html" title="index">Inicio</a>
+			<a href="piloto.html" title="piloto">Piloto</a>
+			<a href="noticias.html" title="noticias" class="active">Noticias</a>
+			<a href="calendario.html" title="calendario">Calendario</a>
+			<a href="meteorologia.html" title="meteorología">Meteorología</a>
+			<a href="circuito.html" title="circuito">Circuito</a>
+			<a href="php/viajes.php" title="viajes">Viajes</a>
+			<a href="juegos.html" title="juegos">Juegos</a>
+		</nav>
+	</header>
+	<p>
+		Estás en: <a href="index.html">Inicio</a> &gt;&gt; Noticias
+	</p>
+	<main>
+		<h2>Noticias</h2>
+		<h3>Introducir noticia manualmente</h3>
+		<label>Título: <input type="text" name="titular" required=""> </label>
+		<label>Entradilla:<textarea name="entradilla" rows="3" required=""></textarea></label>
+		<label>Autor:<input type="text" name="autor" required=""></label>
+		<button>Añadir Noticia</button>
+		<h3>Introducir noticia mediante archivo</h3>
+		<form>
+			<label> Subir Archivo de Noticias:<input type="file" onchange="noticias.readInputFile(this.files);">
+			</label>
+		</form>
+		<section>
+			<h3>Noticias Subidas:</h3>
+		<article><h2>a</h2><p>a</p><p>Autor: a</p></article><article><h2>Alonso, más cerca de ser historia en Asturias</h2><p>El asturiano está en proceso de ampliar su museo y circuito consiguiendo algo nunca antes visto en el Principado</p><p>Autor: Javier Pazos</p></article><article><h2>Briatore asegura que da igual el piloto que fiche Alpine para 2025</h2><p>Cree que no marcará la diferencia y se quiere centrar en 2026</p><p>Autor: Pol Hermoso</p></article><article><h2>En McLaren creen en la remontada de Aston Martin</h2><p>Zak Brown, CEO de la escudería británica, asegura que en 2025 puede haber varios equipos que mejoren su rendimiento, cómo han hecho ellos este año</p><p>Autor: Manuel Rodriguez</p></article></section>
+		<script>
+			var noticias = new Noticias();
+		</script>
+	</main>
+
+
+
+
+</body></html>

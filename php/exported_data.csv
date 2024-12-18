@@ -1,0 +1,84 @@
+table:Circuitos
+1,Mónaco,Monaco,3.34,00:00:00,50000
+2,Silverstone,"Reino Unido",5.89,01:30:12,120000
+3,Monza,Italia,5.79,01:21:23,70000
+4,Barcelona,España,4.68,01:23:45,140000
+5,Baku,Azerbaiyán,6.00,01:34:12,70000
+6,Singapur,Singapur,5.07,01:45:34,90000
+7,Hockenheim,Alemania,4.57,01:31:12,70000
+8,"Mexico City",México,4.30,01:26:00,80000
+9,"Abu Dhabi","Emiratos Árabes Unidos",5.28,01:35:34,60000
+10,Austin,"Estados Unidos",5.51,01:32:56,120000
+
+table:Carreras
+1,"Gran Premio de Mónaco",2024-05-26,Mónaco,Soleado,1
+2,"Gran Premio de Gran Bretaña",2024-07-07,Silverstone,Lluvia,2
+3,"Gran Premio de Italia",2024-09-01,Monza,Nublado,3
+4,"Gran Premio de España",2024-05-13,Barcelona,Soleado,4
+5,"Gran Premio de Azerbaiyán",2024-06-17,Baku,Lluvia,5
+6,"Gran Premio de Singapur",2024-09-15,Singapur,Lluvia,6
+7,"Gran Premio de Alemania",2024-07-14,Hockenheim,Soleado,7
+8,"Gran Premio de México",2024-10-28,"Mexico City",Nublado,8
+9,"Gran Premio de Abu Dhabi",2024-11-04,"Abu Dhabi",Soleado,9
+10,"Gran Premio de Estados Unidos",2024-10-21,Austin,Nublado,10
+
+table:Equipos
+1,Mercedes,Alemania,1950,8
+2,Ferrari,Italia,1929,16
+3,"Red Bull Racing",Austria,2005,4
+4,McLaren,"Reino Unido",1963,12
+5,"Aston Martin","Reino Unido",2004,0
+6,Alpine,Francia,2021,0
+7,"Alfa Romeo",Suecia,2019,0
+8,Haas,"Estados Unidos",2016,0
+9,AlphaTauri,Italia,2006,0
+10,Williams,"Reino Unido",1977,9
+
+table:Pilotos
+1,Lewis,Hamilton,"Reino Unido",1985-01-07,1
+2,Charles,Leclerc,Mónaco,1997-10-16,2
+3,Max,Verstappen,"Países Bajos",1997-09-30,3
+4,Lando,Norris,"Reino Unido",2000-11-13,4
+5,Carlos,Sainz,España,1994-09-01,2
+6,Daniel,Richardo,Australia,1989-07-01,4
+7,Sergio,Pérez,México,1990-08-26,5
+8,Fernando,Alonso,España,1981-07-29,6
+9,Kimi,Raikkonen,Finlandia,1979-10-17,7
+10,Valtteri,Bottas,Finlandia,1989-08-28,1
+
+table:Resultados
+1,1,1,1,01:42:56,25
+2,2,2,2,01:35:32,18
+3,3,3,1,01:20:45,25
+4,4,4,1,01:36:15,18
+5,5,5,3,01:45:22,15
+6,6,6,5,01:47:34,12
+7,7,7,2,01:41:22,18
+8,8,8,6,01:43:55,10
+9,9,9,4,01:39:56,13
+10,10,10,7,01:50:12,8
+
+table:Puntos
+1,1,2024,150
+2,2,2024,120
+3,3,2024,180
+4,4,2024,95
+5,5,2024,100
+6,6,2024,110
+7,7,2024,85
+8,8,2023,60
+9,9,2023,70
+10,10,2023,50
+
+table:Sponsors
+1,Petronas,Principal,1
+2,Santander,Secundario,2
+3,Infiniti,Técnico,3
+4,Coca-Cola,Principal,4
+5,Puma,Secundario,5
+6,Michelin,Técnico,6
+7,"Louis Vuitton",Secundario,7
+8,Heineken,Principal,8
+9,Shell,Secundario,1
+10,Givaudan,Técnico,9
+

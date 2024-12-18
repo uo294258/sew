@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>F1 Desktop-Uso de APIS</title>
+    <meta name="author" content="Zinedine Alvarez" />
+    <meta name="description" content="Proyecto F1 uso de apis de forma libre" />
+    <meta name="keywords" content="api, canvas, auido, geolocation" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" />
+    <script src="js/api.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBF83QHMw7hzPltIi4evByloZao-Qu0naQ"></script>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1><a href="index.html">F1 Desktop </a></h1>
+        <nav>
+            <a href="index.html" title="index">Inicio</a>
+            <a href="piloto.html" title="piloto">Piloto</a>
+            <a href="noticias.html" title="noticias">Noticias</a>
+            <a href="calendario.html" title="calendario">Calendario</a>
+            <a href="meteorologia.html" title="meteorología">Meteorología</a>
+            <a href="circuito.html" title="circuito">Circuito</a>
+            <a href="php/viajes.php" title="viajes">Viajes</a>
+            <a href="juegos.html" title="juegos" class="active">Juegos</a>
+        </nav>
+    </header>
+    <p>
+        Estás en: <a href="index.html">Inicio</a> >> <a href="juegos.html">Juegos</a> >> Api
+    </p>
+    <main>
+        <section>
+            <h2>Menú de Juegos</h2>
+            <ul>
+                <li><a href="memoria.html">Juego De Memoria</a></li>
+                <li><a href="php/semaforo.php">Juego De Reacción</a></li>
+                <li><a href="api.html">Api</a></li>
+                <li><a href="php/libre.php">Ejercicio Libre PHP</a></li>
+
+            </ul>
+        </section>
+        <section>
+            <h3>Bandera de la Meta con Canvas</h3>
+            <canvas></canvas>
+        </section>
+        <section>
+            <h3>Mapa Dinámico con los Circuitos</h3>
+            <p>Pulsar sobre circuito para esuchar coche en carrera</p>
+            <button> Cargar Mapa Dinámico </button>
+            <div></div>
+        </section>
+        <section>
+            <h3>Selecciona un circuito para ver cuales son los mas cercanos</h3>
+        </section>
+
+    </main>
+    <audio></audio>
+    <script>
+        window.onload = function () {
+            initMap();
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="es"><head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">	
+    <title>F1 Desktop-Meteorología</title>
+	<meta name="author" content="Zinedine Alvarez">
+	<meta name="description" content="Meteorología del proyecto F1">
+	<meta name="keywords" content="f1, Austin ,meteorología, temperatura">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+	<link rel="stylesheet" type="text/css" href="estilo/layout.css">
+	<link rel="stylesheet" type="text/css" href="estilo/article_elements.css">
+	<link rel="icon" href="multimedia/imagenes/favicon.ico">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="js/pais.js"></script>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+    <h1><a href="index.html">F1 Desktop </a></h1>
+	<nav>
+		<a href="index.html" title="index">Inicio</a>
+		<a href="piloto.html" title="piloto">Piloto</a>
+		<a href="noticias.html" title="noticias">Noticias</a>
+		<a href="calendario.html" title="calendario">Calendario</a>
+		<a href="meteorologia.html" title="meteorología" class="active">Meteorología</a>
+		<a href="circuito.html" title="circuito">Circuito</a>
+		<a href="php/viajes.php" title="viajes">Viajes</a>
+		<a href="juegos.html" title="juegos">Juegos</a>
+	</nav>
+	</header>
+	<p>
+		Estás en: <a href="index.html">Inicio</a> &gt;&gt; Meteorología
+	</p>
+	
+	<h2>Meteorología</h2>
+	<script>
+		var pais= new Pais("Estados Unidos","Washington D.C.","331,8 millones");
+		pais.rellanarSecundario("Circuit of The Americas","Federalismo",{ lat: -97.6422641, lon:  30.1335256},"Cristianismo")
+		document.write("<p>"+pais.obtenerNombre()+"</p>");
+		document.write("<p>"+pais.obtenerNombreCapital()+"</p>");
+		document.write("<p>"+pais.obtenerInformacionSecundaria()+"</p>");
+		pais.obtenerCoordLineaMeta();
+		pais.obtenerPrevisionTiempo();
+	</script><p>País: Estados Unidos</p><p>Capital: Washington D.C.</p><p></p><ul>
+            <li>Nombre del circuito: Circuit of The Americas</li>
+            <li>Población: 331,8 millones</li>
+            <li>Forma de Gobierno: Federalismo</li>
+            <li>Religión Mayoritaria: Cristianismo</li>
+            </ul><p></p><p>Coordenadas de la línea de meta: Latitud -97.6422641, Longitud 30.1335256</p>
+	<section>
+		<h3>Previsión:</h3>
+	<article><h2>19/12/2024</h2><img src="https://openweathermap.org/img/wn/01d.png" alt="Icono del clima para 19/12/2024" title="Pronóstico del clima en 19/12/2024"><p>Temperatura máxima: 10°C</p><p>Temperatura mínima: 10°C</p><p>Humedad: 52%</p><p>Lluvia: 0 mm</p></article><article><h2>20/12/2024</h2><img src="https://openweathermap.org/img/wn/01d.png" alt="Icono del clima para 20/12/2024" title="Pronóstico del clima en 20/12/2024"><p>Temperatura máxima: 13°C</p><p>Temperatura mínima: 13°C</p><p>Humedad: 52%</p><p>Lluvia: 0 mm</p></article><article><h2>21/12/2024</h2><img src="https://openweathermap.org/img/wn/01d.png" alt="Icono del clima para 21/12/2024" title="Pronóstico del clima en 21/12/2024"><p>Temperatura máxima: 8°C</p><p>Temperatura mínima: 8°C</p><p>Humedad: 46%</p><p>Lluvia: 0 mm</p></article><article><h2>22/12/2024</h2><img src="https://openweathermap.org/img/wn/04d.png" alt="Icono del clima para 22/12/2024" title="Pronóstico del clima en 22/12/2024"><p>Temperatura máxima: 11°C</p><p>Temperatura mínima: 11°C</p><p>Humedad: 65%</p><p>Lluvia: 0 mm</p></article><article><h2>23/12/2024</h2><img src="https://openweathermap.org/img/wn/04d.png" alt="Icono del clima para 23/12/2024" title="Pronóstico del clima en 23/12/2024"><p>Temperatura máxima: 18°C</p><p>Temperatura mínima: 18°C</p><p>Humedad: 89%</p><p>Lluvia: 0 mm</p></article></section>
+
+
+
+
+</body></html>

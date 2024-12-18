@@ -1,0 +1,60 @@
+/* Zinedine Álvarez Sais  UO294258*/
+
+/* Especificidad = 001 */
+section {
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: auto auto;
+    gap: 1vw; 
+    padding: 2vh;
+    max-width: 100vw;
+}
+/* Especificidad = 001 */
+h3 {
+    grid-column: 1 / -1;
+}
+
+/* Especificidad = 001 */
+article {
+    display: flex;
+    flex-direction: column; 
+    background-color: #CBE6EF;
+    padding: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+    /* Especificidad = 001 */
+    section {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+    
+
+@media (max-width: 600px) {
+    /* Especificidad = 001 */
+    section {
+        grid-template-columns: 1fr; 
+    }
+}
+
+/* Especificidad = 002 */
+article h2 {
+    font-size: 1.5em;
+    margin: 1vw;
+    color: #000;
+}
+/* Especificidad = 002 */
+article p {
+    font-size: 1.1em;   
+    margin: 1vw;
+    color: #000;
+}
+
+/* Especificidad = 002 */
+article img {
+    max-width: 10vw;
+    margin: auto;
+}

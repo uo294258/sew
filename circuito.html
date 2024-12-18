@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+	<!-- Datos que describen el documento -->
+	<meta charset="UTF-8" />
+	<title>F1 Desktop-Circuito</title>
+	<meta name="author" content="Zinedine Alvarez" />
+	<meta name="description" content="Circuito del proyecto F1" />
+	<meta name="keywords" content="f1, Circuit Of The Americas, circuito, kml" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+	<link rel="icon" href="multimedia/imagenes/favicon.ico" />
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBF83QHMw7hzPltIi4evByloZao-Qu0naQ"></script>
+	<script src="js/circuito.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+	<!-- Datos con el contenidos que aparece en el navegador -->
+	<header>
+		<h1><a href="index.html">F1 Desktop </a></h1>
+
+		<nav>
+			<a href="index.html" title="index">Inicio</a>
+			<a href="piloto.html" title="piloto">Piloto</a>
+			<a href="noticias.html" title="noticias">Noticias</a>
+			<a href="calendario.html" title="calendario">Calendario</a>
+			<a href="meteorologia.html" title="meteorología">Meteorología</a>
+			<a href="circuito.html" title="circuito" class="active">Circuito</a>
+			<a href="php/viajes.php" title="viajes">Viajes</a>
+			<a href="juegos.html" title="juegos">Juegos</a>
+		</nav>
+	</header>
+	<p>
+		Estás en: <a href="index.html">Inicio</a> >> Circuito
+	</p>
+
+	<h2>Circuito</h2>
+	<main>
+		<section>
+
+			<h3>Procesar archivo XML</h3>
+			<label> Introducir XML:
+				<input type="file" accept=".xml" onchange="circuito.procesarArchivo(this.files);">
+			</label>
+		</section>
+		<section>
+			<h3>Mapa Dinámico</h3>
+			<label> Introducir KML:
+				<input type="file" accept=".kml" onchange="circuito.procesarArchivoKML(this.files);">
+			</label>
+			<div></div>
+		</section>
+		<section>
+			<h3>Cargar Archivo SVG</h3>
+			<label> Introducir SVG:
+				<input type="file" accept=".svg" onchange="circuito.procesarArchivoSVG(this.files);">
+			</label>
+		</section>
+	</main>
+	<script>
+		var circuito = new Circuito();
+
+	</script>
+</body>
+
+
+
+</html>

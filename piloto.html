@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+	<!-- Datos que describen el documento -->
+	<meta charset="UTF-8" />
+	<title>F1 Desktop-Piloto</title>
+	<meta name="author" content="Zinedine Alvarez" />
+	<meta name="description" content="Piloto del proyecto F1" />
+	<meta name="keywords" content="f1,Bottas,piloto" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+	<link rel="icon" href="multimedia/imagenes/favicon.ico" />
+
+
+</head>
+
+<body>
+	<!-- Datos con el contenidos que aparece en el navegador -->
+	<header>
+		<h1><a href="index.html">F1 Desktop </a></h1>
+
+		<nav>
+			<a href="index.html" title="index">Inicio</a>
+			<a href="piloto.html" title="piloto" class="active">Piloto</a>
+			<a href="noticias.html" title="noticias">Noticias</a>
+			<a href="calendario.html" title="calendario">Calendario</a>
+			<a href="meteorologia.html" title="meteorología">Meteorología</a>
+			<a href="circuito.html" title="circuito">Circuito</a>
+			<a href="php/viajes.php" title="viajes">Viajes</a>
+			<a href="juegos.html" title="juegos">Juegos</a>
+		</nav>
+	</header>
+	<p>
+		Estás en: <a href="index.html">Inicio</a> >> Piloto
+	</p>
+	<main>
+		<section>
+			<h2>Valtteri Bottas</h2>
+			<h3>Datos Personales</h3>
+			<p>Valtteri Viktor Bottas nació el 28 de agosto de 1989 en Nastola, Finlandia,
+				a poco más de 100 kilómetros de la capital, al sur del país. Tras varios títulos
+				a nivel nacional y continental de Karting, el piloto da el salto a los Fórmula,
+				debutando en la afamada Fórmula Renault 2.0 donde ya desde los inicios llamó la atención.</p>
+			<picture>
+				<source media="(max-width: 465px)" srcset="multimedia/imagenes/bottas-w465.jpg">
+				<source media="(max-width: 799px)" srcset="multimedia/imagenes/bottas-w799.jpg">
+				<img src="multimedia/imagenes/bottas.jpg"
+					alt="Primer plano de la cara de Valtteri Bottas piloto de Fórmula 1" />
+			</picture>
+		</section>
+		<section>
+			<h3>Informacion Adicional</h3>
+			<h4>Aficiones</h4>
+			<ul>
+				<li>Ciclismo</li>
+				<li>Salir a tomar un café</li>
+				<li>Pasar tiempo con la familia</li>
+				<li>Hockey</li>
+				<li>Viajar</li>
+			</ul>
+			<h4>Entrevista</h4>
+
+			<audio controls>
+				<source src="multimedia/audios/entrevista.wav" type="audio/wav" />
+				<source src="multimedia/audios/entrevista.mp3" type="audio/mp3" />
+			</audio>
+
+			<h4>Equipos</h4>
+			<ol>
+				<li> Koiranen Bros. Motorsport </li>
+				<li> AKA Cobra </li>
+				<li> Motopark Academy </li>
+				<li> ART Grand Prix </li>
+				<li> Prema Powerteam </li>
+				<li> AT&T Williams </li>
+				<li> Lotus ART </li>
+				<li> Double R </li>
+				<li> AT&T Williams </li>
+				<li> Williams F1 Team </li>
+				<li> Mercedes-AMG Petronas Motorsport </li>
+				<li> Mercedes-AMG Petronas Formula One Team </li>
+				<li> Alfa Romeo Racing ORLEN</li>
+				<li> Alfa Romeo F1 Team ORLEN </li>
+				<li> Alfa Romeo F1 Team Stake </li>
+				<li> Alfa Romeo F1 Team Kick </li>
+				<li> Stake F1 Team Kick Sauber </li>
+				<li> Kick Sauber F1 Team </li>
+			</ol>
+
+			<img src="multimedia/imagenes/compitiendo.jpg" alt="Vehículos de carreras compitiendo en una pista" />
+
+
+			<h4>Posiciones Destacadas</h4>
+			<ul>
+				<li>Formula 1
+					<ol>
+						<li>2021: Tercer Puesto</li>
+						<li>2020: Segundo Puesto</li>
+						<li>2019: Segundo Puesto </li>
+					</ol>
+				</li>
+			</ul>
+			<h4>Resultados </h4>
+			<table>
+				<caption>TEMPORADA 2023/2024</caption>
+				<tbody>
+					<tr>
+						<th scope="col" id="PuntosObtenidos">Puntos Obtenidos</th>
+						<th scope="col" id="Posicionfinal">Posición final</th>
+						<th scope="col" id="Poles">Poles</th>
+						<th scope="col" id="Victorias">Victorias </th>
+						<th scope="col" id="Podios">Podios </th>
+					</tr>
+					<tr>
+						<td headers="PuntosObtenidos">10</td>
+						<td headers="Posicionfinal">15º</td>
+						<td headers="Poles">0</td>
+						<td headers="Victorias">0</td>
+						<td headers="Podios">0</td>
+					</tr>
+				</tbody>
+			</table>
+			<h4>Video</h4>
+			<video controls preload="auto">
+				<source src="multimedia/videos/video.webm" type="video/webm" />
+				<source src="multimedia/videos/video.mp4" type="video/mp4" />
+			</video>
+		</section>
+		<aside>
+			<h3>Conceptos</h3>
+			<dl>
+				<dt>Aerodinámica </dt>
+				<dd>Es una fuerza en dirección vertical descendente (el downforce) que se logra con los alerones y
+					aletas para mantener la adherencia del coche contra el asfalto.</dd>
+				<dt>'Cockpit'</dt>
+				<dd>El habitáculo del coche donde se sitúa el piloto. Es una especie de sarcófago o célula de
+					supervivencia hecha de fibra de carbono.</dd>
+				<dt>Chicane</dt>
+				<dd>Curvas pronunciadas (habitualmente añadidas al trazado original) para reducir la velocidad en una
+					recta o curva larga.</dd>
+				<dt>DRS</dt>
+				<dd>Dispositivo móvil introducido en el 2011 para facilitar los adelantamientos. Consiste en la apertura
+					de una lámina del alerón trasero para dejar pasar el aire y reducir
+					la resistencia al aire (el drag). Se acciona solo cuando un bólido está a menos de 1 segundo del
+					coche precedente, en zonas permitidas (zona de DRS), normalmente rectas.</dd>
+				<dt>Graining</dt>
+				<dd>Un desgaste del neumático temporal (se corrige) por la aparición de pequeñas tiras de caucho
+					(granos) que se desprenden de la banda de rodadura y reduciendo el agarre (el grip inglés). </dd>
+			</dl>
+		</aside>
+		<h3> Enlaces Externos </h3>
+		<p>
+			<a href="https://www.formula1.com/en/drivers/valtteri-bottas">Fórmula 1</a>
+			<a href="https://es.wikipedia.org/wiki/Valtteri_Bottas#Resumen_de_carrera">Wikipedia</a>
+		</p>
+	</main>
+
+
+
+
+
+</body>
+
+
+
+</html>
