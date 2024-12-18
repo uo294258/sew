@@ -17,8 +17,9 @@ main>section h2 {
 }
 
 /* Especificidad = 001 */
+/*color de primer plano heredado del body*/
 article {
-    width: calc(25% - 3vw); 
+    width: calc(25% - 3vw);
     aspect-ratio: 1 / 1;
     position: relative;
     cursor: pointer;
@@ -29,6 +30,7 @@ article {
 }
 
 /* Especificidad = 002 */
+/*color de fondo  heredado del article*/
 article h3 {
     position: absolute;
     backface-visibility: hidden;
@@ -41,6 +43,8 @@ article h3 {
 }
 
 /* Especificidad = 002 */
+/*color de primer plano  heredado del body*/
+
 article img {
     transform: rotateY(180deg);
     position: absolute;

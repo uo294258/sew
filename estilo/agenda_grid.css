@@ -11,12 +11,10 @@ button {
     cursor: pointer;
 }
 
-/* Especificidad = 011 */
-button:hover {
-    background: #CBE6EF; 
-}
+
 
 /* Especificidad = 001 */
+/* Hereda el color de primer plano del body */
 section {
     margin: 1vh;
     background: #CBE6EF; 
@@ -31,6 +29,7 @@ section {
 article {
     margin: 1vw;
     padding: 1vw;
+    color:#fff;
     background: #003366; 
     text-align: center;
     border-radius: 1vw;
@@ -40,21 +39,16 @@ article {
 /* Especificidad = 002 */
 article p {
     margin: 0.5vw;
-    color:#fff;
 }
 
 
-/* Especificidad = 002 */
-article > h4 {
-    color: #fff; 
-}
 
 /* Especificidad = 002 */
 section h3 {
     grid-column: 1 / -1; 
 }
 
-
+/* Redefino el número columnas del grid en funcion del tamaño de las pantallas para  mejorar la visualizacion */
 @media (max-width: 1024px) {
     /* Especificidad = 001 */
     section {
@@ -62,6 +56,7 @@ section h3 {
     }
 }
 
+/* Redefino el número columnas del grid en funcion del tamaño de las pantallas para mejorar la visualizacion*/
 @media (max-width: 600px) {
     /* Especificidad = 001 */
     section {

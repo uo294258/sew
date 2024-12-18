@@ -1,5 +1,6 @@
 /* Zinedine Álvarez Sais  UO294258*/
 /* Especificidad = 001 */
+/* Hereda el color de primer plano del body */
 header {
     display: flex;
     justify-content: space-between;
@@ -21,25 +22,22 @@ header h1 {
 /* Especificidad = 002 */
 nav a {
     padding: 1vw;
-    color: #000;
-    margin: 1vh 0 ;
-    /*background-color heredado de body*/
+    color: #333333   ;
+    margin: 1vh 0;
+    /*background-color heredado de header*/
 }
 
-/* Especificidad = 001 */
-h1 {
-    color: #000;
-    margin-bottom: 1vh;
-    /*background-color heredado de body*/
-}
+
 
 /* Especificidad = 012 */
+/*background-color heredado de header*/
 nav a:hover {
     color: #003366;
     font-weight: bold;
 }
 
 /* Especificidad = 012 */
+/*background-color heredado de header*/
 nav a.active {
     color: #8F004A;
     font-weight: bold;
@@ -47,10 +45,10 @@ nav a.active {
 
 /* Especificidad = 002 */
 h1 a {
-    text-decoration: none;
+    text-decoration: none;  
     font-size: 1.5em;
-    color: #000;
-    /*background-color heredado de body*/
+    color: #003366 ;
+    /*background-color heredado de header*/
 }
 
 
@@ -68,8 +66,8 @@ h1 a {
 
     /* Especificidad = 001 */
     header {
-        display: flex;
         flex-direction: column;
+        /*redefino como se alinean los items respecto al header*/
         align-items: flex-start;
     }
 

@@ -40,35 +40,24 @@
 		Estás en: <a href="index.html">Inicio</a> >> Noticias
 	</p>
 	<main>
-
-
 		<h2>Noticias</h2>
-
-
-		<label>Título:
-			<input type="text" name="titular" required><br><br>
-		</label>
-		<label>Entradilla:
-			<textarea name="entradilla" rows="3" required></textarea><br><br>
-		</label>
-		<label>Autor:
-			<input type="text" name="autor" required><br><br>
-		</label>
+		<h3>Introducir noticia manualmente</h3>
+		<label>Título: <input type="text" name="titular" required> </label>
+		<label>Entradilla:<textarea name="entradilla" rows="3" required></textarea></label>
+		<label>Autor:<input type="text" name="autor" required></label>
 		<button>Añadir Noticia</button>
+		<h3>Introducir noticia mediante archivo</h3>
 		<form>
-		<label> Subir Archivo de Noticias:
-		<input type="file" onchange="noticias.readInputFile(this.files);">
-		</label>
-	</form>
+			<label> Subir Archivo de Noticias:<input type="file" onchange="noticias.readInputFile(this.files);">
+			</label>
+		</form>
 		<section>
 			<h3>Noticias Subidas:</h3>
 		</section>
-
 		<script>
 			var noticias = new Noticias();
 		</script>
 	</main>
-
 </body>
 
 

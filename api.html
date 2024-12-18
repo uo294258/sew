@@ -13,8 +13,6 @@
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     <link rel="icon" href="multimedia/imagenes/favicon.ico" />
     <script src="js/api.js"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBF83QHMw7hzPltIi4evByloZao-Qu0naQ"></script>
 </head>
 
 <body>
@@ -51,21 +49,18 @@
             <canvas></canvas>
         </section>
         <section>
-            <h3>Mapa Dinámico con los Circuitos</h3>
-            <p>Pulsar sobre circuito para esuchar coche en carrera</p>
-            <button> Cargar Mapa Dinámico </button>
-            <div></div>
+            <h3>Circuito Más Cercano</h3>
+            
         </section>
+
         <section>
-            <h3>Selecciona un circuito para ver cuales son los mas cercanos</h3>
+            <h3>Circuitos Y Distancias</h3>
+            <p>Pulse sobre las imagenes para escuchar el rugir de los coches</p>
         </section>
 
     </main>
-    <audio></audio>
     <script>
-        window.onload = function () {
-            initMap();
-        };
+        var api = new Api();
     </script>
 </body>
 
